@@ -1,7 +1,3 @@
-/**
- * @author liqingsong on 2019/3/31
- * @project javalang-common
- */
 public class AssertExample {
     public static void main(String[] args) {
         /**
