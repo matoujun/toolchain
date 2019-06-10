@@ -206,7 +206,7 @@ Exception in thread "main" java.lang.AssertionError: args must be null
         at AssertExample.main(AssertExample.java:5)
 ~~~
 #### 4）查看修改后的example：
-```javac -processor ChangeAssertProcessor -printsource  -s ./org   AssertExample.java ```
+```javac -processor ChangeAssertProcessor -printsource  -d ./org   AssertExample.java ```
 生成的AssertExample.java放到org目录下，防止覆盖旧的代码。
 ~~~java
 public class AssertExample {
